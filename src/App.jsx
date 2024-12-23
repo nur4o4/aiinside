@@ -1,3 +1,4 @@
+//jsx file with all routing info for buttons
 import{
     BrowserRouter,
     Routes,
