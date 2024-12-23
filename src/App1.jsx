@@ -1,3 +1,4 @@
+//first page of the Figma, home page
 import home from './assets/home.png';
 import home2 from './assets/home2.png';
 import homeCenter from '/Users/nuriscan/react-app/my-react-app/src/assets/homeA/homeAcenter.png';
