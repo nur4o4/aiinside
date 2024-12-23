@@ -1,8 +1,8 @@
 # React + Vite environment
 
-Make sure you have Node.js (v14.18+ or v16+) installed  
-Create a new Vite project by running the following command: npm create vite@latest my-react-app  
-Choose the React framework and JavaScript variant  
-Navigate to the Project Directory: cd my-react-app  
-Install the necessary dependencies: npm install  
-Run the development server: npm run dev  
+**Step 1** Make sure you have Node.js (v14.18+ or v16+) installed  
+**Step 2** Create a new Vite project by running the following command: npm create vite@latest my-react-app  
+**Step 3** Choose the React framework and JavaScript variant  
+**Step 4** Navigate to the Project Directory: cd my-react-app  
+**Step 5** Install the necessary dependencies: npm install  
+**Step 5** Run the development server: npm run dev  
