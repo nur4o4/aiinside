@@ -1,0 +1,296 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #FAFBFD;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+header{
+  position: relative;
+}
+header img {
+  position: absolute;
+  top: 0px; /* Distance from the top of the header */
+  left: 0px;
+  max-width: 20%; /* Ensures the image scales responsively */
+  width: 125px;
+  height: 40px;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+header #box1{
+  height: 120px;
+  width: 2080px;
+  background-color: #ffffff;
+  position: relative;
+  top:-45px;
+  border-bottom: 0.8px solid #e3e5e7;
+}
+
+aside #box2{
+  height: 800px;
+  width: 200px;
+  background-color: #ffffff;
+  position: relative;
+  top: -45px;
+  border-right: 0.8px solid #e3e5e7;
+}
+
+main #box3 {
+  height: 20px;
+  width: 300px; /* Adjust the width to avoid overlap with #box2 */
+  background-color: #F4F4F4;
+  position: relative; /* Ensure 'left' works */
+  left: 240px; /* Offset it by the width of #box2 */
+  top: -830px;
+  border-radius: 3px;
+}
+
+main hm {
+  font-size: 0.7em;
+  line-height: 1.1;
+  color: #afaeae;
+  position: relative; /* Ensure 'left' works */
+  left: 244px; /* Offset it by the width of #box2 */
+  top: -854px;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+main hmd {
+  font-size: 0.7em;
+  line-height: 1.1;
+  color: #474747;
+  position: relative; /* Ensure 'left' works */
+  left: 236px; /* Offset it by the width of #box2 */
+  top: -837px;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+main #image11 {
+  display: block;
+  position: relative;
+  top:-840px;
+  left: 240px;
+  border-radius: 5px;
+}
+
+main #image12{
+  display: block;
+  position: relative;
+  top:-1020px;
+  left: 540px;
+  border-radius: 5px;
+}
+
+main #image13{
+  display: block;
+  position: relative;
+  top:-1330px;
+  left: 840px;
+  border-radius: 5px;
+}
+
+main #image14{
+  display: block;
+  position: relative;
+  top:-1712px;
+  left: 1140px;
+  border-radius: 5px;
+}
+
+main #image21{
+  display: block;
+  position: relative;
+  top:-1575px;
+  left: 240px;
+  border-radius: 5px;
+}
+
+button.bedb1 {
+  all: unset; /* Remove all default button styles */
+  position: relative;
+  top: -307px;
+  cursor: pointer;
+}
+
+
+.bedb1:hover #image13 {
+  filter: brightness(70%); /* Darken the image */
+}
+
+.hover-box {
+  position: absolute;
+  top: -1315px; 
+  left: 850px; 
+  width: 30px; /* Set the size of the box */
+  height: 30px; /* Set the size of the box */
+  background-color: #ffffff; 
+  opacity: 0; /* Start with the box hidden */
+  border-radius: 7px;
+}
+
+.bedb1:hover .hover-box {
+  opacity: 0.6; /* Make the box appear on hover */
+}
+
+.hover-box2 {
+  position: absolute;
+  width: 140px; /* Set the box width */
+  height: 30px; /* Set the box height */
+  background-color: #ffffff; /* Semi-transparent dark background */
+  opacity: 0; /* Initially hidden */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the text within the box */
+  top: -1315px;
+  left: 975px;
+  border-radius: 7px;
+}
+
+.bedb1:hover .hover-box2 {
+  opacity: 1; /* Make the box visible on hover */
+}
+
+.hover-text {
+  color: #611ce2; /* Text color */
+  font-size: 13px; /* Text size */
+  text-align: right;
+  font-weight: 600; 
+}
+
+#exit {
+  all: unset; 
+  position: absolute; /* Absolute positioning */
+  top: 130px; 
+  left: 1093px; 
+  width: 15px; /* Box width */
+  height: 15px; /* Box height */
+  background-color: #e62323; /* Visible background */
+  z-index: 1000; /* Ensure it is on top */
+  opacity:0;
+}
+
+#tomenu3 {
+  all: unset; 
+  position: absolute; /* Absolute positioning */
+  top: 675px; 
+  left: 990px; 
+  width: 110px; /* Box width */
+  height: 30px; /* Box height */
+  background-color: #e62323; /* Visible background */
+  z-index: 1000; /* Ensure it is on top */
+  opacity:0;
+}
+
+#homebedbutton{
+  all:unsent;
+  position: absolute; /* Absolute positioning */
+  top: 100px; 
+  left: 860px; 
+  width: 310px; /* Box width */
+  height: 405px; /* Box height */
+  background-color: #e62323; /* Visible background */
+  z-index: 1000; /* Ensure it is on top */
+  opacity:0;
+}
+
+#homecornerbutton{
+  all:unsent;
+  position: absolute; /* Absolute positioning */
+  top: 117px; 
+  left: 1025px; 
+  width: 130px; /* Set the box width */
+  height: 35px; /* Set the box height */
+  background-color: #e62323; /* Visible background */
+  z-index: 10000; /* Ensure it is on top */
+  opacity:0;
+}
+
+#homemenu{
+  all:unsent;
+  position: absolute; /* Absolute positioning */
+  top: 70px; 
+  left: 258px; 
+  width: 30px; /* Set the box width */
+  height: 12px; /* Set the box height */
+  background-color: #e62323; /* Visible background */
+  z-index: 10000; /* Ensure it is on top */
+  opacity:0;
+}
+
+#homebmenu{
+  all:unsent;
+  position: absolute; /* Absolute positioning */
+  top: 150px; 
+  left: 230px; 
+  width: 30px; /* Set the box width */
+  height: 12px; /* Set the box height */
+  background-color: #e62323; /* Visible background */
+  z-index: 10000; /* Ensure it is on top */
+  opacity:0;
+}
