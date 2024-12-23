@@ -1,3 +1,4 @@
+//old version of home page of the Figma, now redundant, keeping only for reference
 import Footer from './Footer.jsx'
 import Food from './Food.jsx'
 import aiinside from './assets/hello.jpg';
