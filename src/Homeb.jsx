@@ -1,3 +1,4 @@
+//景观 page on home page
 import homebtop from './assets/homeb/Group 1142815220.png';
 import homebbottom from './assets/homeb/Group 1142815299.png';
 import Header from './Header'
