@@ -1,3 +1,4 @@
+//page after clicking on the bed from the home page
 import app2 from './assets/app2素材中心-公共 1.png';
 import rect from './assets/app2Rectangle 5050.png'
 import bed from './assets/app2Rectangle 4811.png'
