@@ -1,3 +1,4 @@
+//side header including all page options
 import menu1 from '/Users/nuriscan/react-app/my-react-app/src/assets/header+side/Group 1142815067.png';
 import menu2 from '/Users/nuriscan/react-app/my-react-app/src/assets/header+side/Group 1142815151.png';
 import menu3 from '/Users/nuriscan/react-app/my-react-app/src/assets/header+side/Group 1142815066.png';
