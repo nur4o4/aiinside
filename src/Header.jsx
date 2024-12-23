@@ -1,3 +1,4 @@
+//top header for all pages, and some consistent elements of the side header
 import aiinside from './assets/hello.jpg';
 import topheader from './assets/header+side/Rectangle 4702.png';
 import headeraccessory from './assets/header+side/Group 1142815204.png';
@@ -11,11 +12,6 @@ import symbols2 from './assets/header+side/设置.png';
 import bottomicon1 from '/Users/nuriscan/react-app/my-react-app/src/assets/header+side/Group 1285.png';
 import bottomicon2 from '/Users/nuriscan/react-app/my-react-app/src/assets/header+side/Group 1283.png';
 import bottomicon3 from '/Users/nuriscan/react-app/my-react-app/src/assets/header+side/Group 1284.png';
-
-import menu1 from '/Users/nuriscan/react-app/my-react-app/src/assets/header+side/Group 1142815067.png';
-import menu2 from '/Users/nuriscan/react-app/my-react-app/src/assets/header+side/Group 1142815151.png';
-import menu3 from '/Users/nuriscan/react-app/my-react-app/src/assets/header+side/Group 1142815066.png';
-import menu4 from '/Users/nuriscan/react-app/my-react-app/src/assets/header+side/Group 427319043.png';
 
 function Header(){
 
